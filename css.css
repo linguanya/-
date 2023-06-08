@@ -1,0 +1,327 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #000;
+	width: 1024px;
+	margin: 0 auto;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background:#f4ead8;
+}
+
+/*设置链接格式*/
+a:link {
+	text-decoration: none;
+	outline: none;
+	color: #000;
+	font-size: 23px;
+	font-family: STKaiti;;
+	
+}
+
+a:visited {
+	font-size: 23px;
+	color:#000;
+	font-family: STKaiti;
+} 
+
+a:hover {
+	color: #a81e32;
+}
+
+a:active {
+	color:#a81e32;
+} 
+
+/*文字高亮*/
+mark {
+    background-color:burlywood;
+	font-weight:bold;
+	color: #5f271d;
+}
+
+ul li {
+	list-style: none
+}
+.fr {
+	float: right
+}
+.fl {
+	float: left
+}
+.clear {
+	clear: both;
+}
+
+/*顶图*/
+.top {
+	width: 100%;
+	overflow: hidden;
+}
+.top img {
+	width: 100%;
+}
+/*顶部菜单*/
+.nav {
+	width: 100%;
+	overflow: hidden;
+	height: 45px;
+	background: #9e817b;
+}
+.nav a {
+	padding: 15px 80px;
+	color: #FFF;
+	line-height: 45px;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+.nav a:hover {
+	background: #5f271d;
+}
+.nav a.on {
+	background: #5f271d;
+}
+
+/*主体*/
+.main {
+	width: 1000px;
+	height:1260px;
+	padding: 12px;
+	background: #FFF;
+}
+
+/*尾部*/
+.foot {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	color: #999;
+	line-height: 60px;
+	font-size: 15px;
+}
+
+/*有横线的标题*/
+.title {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+	border-bottom: 2px solid #5f271d;
+}
+.title h1 {
+	padding: 10px 50px;
+	line-height: 23px;
+	display: inline-block;
+	background: #5f271d;
+	color: #FFF;
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-family: STKaiti;
+}
+
+/*主体内容*/
+.jianjie {
+	width: 100%;
+	overflow: hidden;
+}
+.jianjie p {
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+	padding-top: 10px;
+	text-indent: 2em;
+	font-family: STKaiti;
+}
+.jianjie h2 {
+	color:#5f271d;
+	margin-top: 14px;
+	font-size: 16px;
+	font-family: STKaiti;
+}
+
+/*左侧菜单*/
+.left {
+	width: 200px;
+	float: left;
+	background: #9e817b;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+.left h1 {
+	text-align: center;
+	background: #5f271d;
+	line-height: 45px;
+	color: #FFF;
+	font-size: 20px;
+	font-family: STKaiti;
+	letter-spacing: 3px;
+}
+.left li {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px dashed #ead193;/*虚线*/
+	padding: 10px 0 4px 0;
+	line-height: 50px;
+	margin-top: 10px;
+	font-family: STKaiti;
+}
+
+.left li a {
+	margin: 0 20px;
+	font-size: 21px;
+	letter-spacing: 2px;
+	transition: all 0.3s;
+	display: block;
+	font-family: STKaiti;
+}
+.left li a:hover {
+	margin-left: 30px;
+}
+/*右侧菜单*/
+.right {
+	width: 770px;
+	float: right;
+	margin-right: 10px;
+}
+.right li {
+	font-family: STKaiti;
+	font-size: 18px;
+}
+
+/*首页*/
+/*导航栏*/
+
+.logo img
+	{
+		float:left;
+		width:10%;
+		height:60px;
+	}
+
+
+
+/*左图右文*/
+
+.intro{
+	background-color: navajowhite;
+	float:right;
+	margin-right:5px;
+	margin-top: 10px;
+	width:53%;
+	height: 300px;
+}
+
+/* 视频右侧框 */
+.intro2{
+	background-color: #5f271d;
+	float:right;
+	margin-right:5px;
+	width:23%;
+	height: 340px;
+}
+.intro3{
+	background-color:  #9e817b;
+	float:right;
+	margin-right: 10px;
+	width:90%;
+	height: 142px;
+}
+
+/* 下方两个框 */
+.intro4{
+	background-color:#e4b8a2;
+	float:right;
+	margin-top: 20px;
+	margin-right: 5px;
+	width:99.5%;
+	height: 250px;
+}
+.photo1 img{
+	    float:left;
+	    width:40%;
+		height: 250px;
+		positio:relative;
+	}
+	
+.intro5{
+	background-color:  #fcdeac;
+	float:right;
+	margin-top: 20px;
+	margin-right: 5px;
+	width:99.5%;
+	height: 250px;
+}
+.photo2 img{
+	    float:left;
+	    width:40%;
+		height: 250px;
+		positio:relative;
+	}
+
+.intro6{
+	background-color:  white;
+	float:right;
+	margin-top: 8px;
+	width:60%;
+	height: 230px;
+}
+
+/* 图片轮播 */
+/*设置box的大小*/
+.box{
+	margin-top: 10px;
+	float:left;
+	width:450px;
+	height: 320px;
+	position:relative;
+	overflow: hidden;
+}
+/*设置box1的大小（需要能够放下内容的大小）*/
+.box1{
+	float:left;
+	width:1350px;
+	height: 320px;
+	animation:mybox 3s infinite ;
+}
+/*设置每个元素的大小。视为行内块，左浮动，可以使他们一排且无间隙*/
+.box1 div{
+		width: 450px;
+		height: 320px;
+		display: inline-block;
+		float: left;
+}
+
+ 
+/*百分比大小可设置每个元素停留的时间*/
+ @keyframes mybox{
+				0%{
+					transform: translate(-0);
+				}
+                50%{
+                    transform: translate(-450px);
+                }   
+				100%{
+					transform: translate(-900px);
+				}
+			} 
+
+/*闽南文化*/
+.intro7{
+	background-color:#f4ead8;
+	float:right;
+	margin-top: 15px;
+	width:100%;
+	height:1030px;
+}
+
+.intro8{
+	background-color:#f4ead8;
+	float:right;
+	margin-top: 15px;
+	width:100%;
+	height:1105px;
+}
+
+
